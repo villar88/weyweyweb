@@ -2900,7 +2900,7 @@ h3 {
 
 .call-to-action{
   text-align: center;
-  padding: 150px 0;
+  padding: 150px 50px;
   color:#ffffff;
   /* background: url(/assets/img/fondo_sepakersysponsors_azul.png) left top no-repeat; */
   background-size: 200% 100%;
@@ -3005,29 +3005,29 @@ h3 {
   width: 100%;
 }
 
-.sponsors__logo.diamond__logo a {
+.sponsors__logo.diamond__logo a img {
   max-width: 640px;
-  height: 308px;
+  max-height: 308px;
 }
 
-.sponsors__logo.platinum__logo a {
+.sponsors__logo.platinum__logo a img {
   max-width: 540px;
-  height: 260px;
+  max-height: 260px;
 }
 
-.sponsors__logo.gold__logo a {
+.sponsors__logo.gold__logo a img {
   max-width: 360px;
-  height: 130px;
+  max-height: 130px;
 }
 
-.sponsors__logo.silver__logo a {
+.sponsors__logo.silver__logo a img {
   max-width: 360px;
-  height: 130px;
+  max-height: 130px;
 }
 
-.sponsors__logo.bronze__logo a {
+.sponsors__logo.bronze__logo a img {
   max-width: 160px;
-  height: 64px;
+  max-height: 64px;
 }
 
 .valuable__sponsor .bronze__section {
