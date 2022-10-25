@@ -465,7 +465,6 @@ hr.white {
 }
 
 #sponsors img{
-  width: 100%;
   position: relative;
 }
 
@@ -1844,11 +1843,7 @@ label.error {
 }
 #jobs_list img,
 #sponsors img {
-  width: 100%;
-  /* margin: auto; */
   box-sizing: border-box;
-  /* max-width: 300px; */
-  max-height: auto;
   transition: .1s all;
 }
 #sponsors img:hover{
@@ -1899,6 +1894,7 @@ label.error {
 }
 .valuable__sponsor h6 {
     margin: 100px 0;
+    color: #0DCCCF;
 }
 .location ul {
   list-style: none;
@@ -2998,34 +2994,29 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 200px; */
 }
 
-.sponsors__logo a img {
-  width: 100%;
-}
-
-.sponsors__logo.diamond__logo a img {
+.sponsors__logo.diamond__logo a {
   max-width: 640px;
   max-height: 308px;
 }
 
-.sponsors__logo.platinum__logo a img {
+.sponsors__logo.platinum__logo a {
   max-width: 540px;
   max-height: 260px;
 }
 
-.sponsors__logo.gold__logo a img {
+.sponsors__logo.gold__logo a {
   max-width: 360px;
   max-height: 130px;
 }
 
-.sponsors__logo.silver__logo a img {
+.sponsors__logo.silver__logo a {
   max-width: 360px;
   max-height: 130px;
 }
 
-.sponsors__logo.bronze__logo a img {
+.sponsors__logo.bronze__logo a {
   max-width: 160px;
   max-height: 64px;
 }

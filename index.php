@@ -2225,44 +2225,10 @@ include  DOCUMENT_ROOT . '/inc/config.php';
                     <div class="valuable__sponsor ">
                         <h6>Diamond</h6>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="sponsors__logo diamond__logo">
                                     <a target="_blank" href="https://www.ortussolutions.com/">
                                         <img src="assets/img/sponsor/ortus.webp" alt="Ortus Solutions">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="sponsors__logo diamond__logo">
-                                    <a target="_blank" href="https://www.ortussolutions.com/">
-                                        <img src="assets/img/sponsor/ortus.webp" alt="Ortus Solutions">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="valuable__sponsor ">
-                        <h6>Organiser y Supporter</h6>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="sponsors__logo gold__logo">
-                                    <a href="https://jonthebeach.com/" aria-label="Read about the organizer" target="blank">
-                                        <img src="assets/img/sponsor/jotb.webp" alt="J On The Beach">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="sponsors__logo gold__logo">
-                                    <a href="https://www.yeswetech.org/" aria-label="Read about the organizer" target="blank">
-                                        <img src="assets/img/sponsor/ywt.webp" alt="J On The Beach">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="sponsors__logo gold__logo">
-                                    <a href="https://jonthebeach.com/" aria-label="Read about the organizer" target="blank">
-                                        <img src="assets/img/sponsor/jotb_vertical_blanco.png" alt="J On The Beach">
                                     </a>
                                 </div>
                             </div>
@@ -2272,43 +2238,54 @@ include  DOCUMENT_ROOT . '/inc/config.php';
                     <div class="valuable__sponsor ">
                         <h6>Media & Training Sponsor</h6>
                         <div class="row ">
-                            <div class="col-md-offset-1 col-md-2">
-                                <div class="sponsors__logo silver__logo">
+                            <div class="col-md-offset-2 col-md-4">
+                                <div class="sponsors__logo bronze__logo">
+                                    <a href="https://adalab.es/" aria-label="Read about Adalab" target="blank">
+                                        <img src="assets/img/sponsor/adalab.webp" alt="Adalab">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="sponsors__logo bronze__logo">
                                     <a href="https://socratech.es/" aria-label="Read about Socratech" target="blank">
                                         <img src="assets/img/sponsor/socratech.webp" alt="Socratech">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-md-2">
-                                <div class="sponsors__logo silver__logo">
-                                    <a href="https://adalab.es/" aria-label="Read about Adalab" target="blank">
-                                        <img src="assets/img/sponsor/adalab.webp" alt="Adalab">
-                                    </a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="valuable__sponsor ">
+                                <h6>Organiser</h6>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="sponsors__logo gold__logo">
+                                            <a href="https://jonthebeach.com/" aria-label="Read about the organizer" target="blank">
+                                                <img src="assets/img/sponsor/jotb.webp" alt="J On The Beach">
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-2">
-                                <div class="sponsors__logo silver__logo">
-                                    <a href="https://adalab.es/" aria-label="Read about Adalab" target="blank">
-                                        <img src="assets/img/sponsor/adalab.webp" alt="Adalab">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-2">
-                                <div class="sponsors__logo silver__logo">
-                                    <a href="https://adalab.es/" aria-label="Read about Adalab" target="blank">
-                                        <img src="assets/img/sponsor/adalab.webp" alt="Adalab">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-md-2">
-                                <div class="sponsors__logo silver__logo">
-                                    <a href="https://adalab.es/" aria-label="Read about Adalab" target="blank">
-                                        <img src="assets/img/sponsor/adalab.webp" alt="Adalab">
-                                    </a>
+                        </div>
+                        <div class="col-md-6">
+                        <div class="valuable__sponsor ">
+                                <h6>Supported by</h6>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="sponsors__logo gold__logo">
+                                            <a href="https://www.yeswetech.org/" aria-label="Read about the organizer" target="blank">
+                                                <img src="assets/img/sponsor/ywt.webp" alt="J On The Beach">
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             <button onclick="toggleBecome()">Become a sponsor</button>
         </section>
